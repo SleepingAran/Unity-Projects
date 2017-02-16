@@ -1,0 +1,65 @@
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M   (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     1995 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity Projects\Test Sprite 1\Test Sprite_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.718456 ms
+The AnimationClip 'Walking animation' used by the Animation component 'New Sprite' must be marked as Legacy.
+ 
+(Filename:  Line: 1927)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+The AnimationClip 'Walking animation' used by the Animation component 'das prefab (1)' must be marked as Legacy.
+ 
+(Filename:  Line: 1927)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+The AnimationClip 'Walking animation' used by the Animation component 'das prefab (2)' must be marked as Legacy.
+ 
+(Filename:  Line: 1927)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+The AnimationClip 'Walking animation' used by the Animation component 'das prefab (3)' must be marked as Legacy.
+ 
+(Filename:  Line: 1927)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+The AnimationClip 'Walking animation' used by the Animation component 'das prefab' must be marked as Legacy.
+ 
+(Filename:  Line: 1927)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 401)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1874 -> priority: 1 
+  Thread -> id: 790 -> priority: 1 

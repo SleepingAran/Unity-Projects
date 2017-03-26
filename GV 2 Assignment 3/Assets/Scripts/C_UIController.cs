@@ -38,9 +38,12 @@ public class C_UIController : MonoBehaviour {
         {
             Time.timeScale = 0;
             loseIndicator.text = "YOU WIN!";
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
         }
-       
-	}
+
+    }
 
 
     public void OnEnemyHit()

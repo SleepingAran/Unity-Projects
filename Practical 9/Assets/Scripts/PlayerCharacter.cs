@@ -4,10 +4,10 @@ using System.Collections;
 public class PlayerCharacter : MonoBehaviour {
 
 	private int health;
-
+    private const float FULL_HEALTH=10f;
 	// Use this for initialization
 	void Start () {
-		health = 10;
+		health = (int)FULL_HEALTH;
 	}
 	
 	// Update is called once per frame
@@ -19,6 +19,7 @@ public class PlayerCharacter : MonoBehaviour {
 
 		health -= damage;
 		Debug.Log("Health=" + health);
+        Messenger<float>.Broadcast(GameEvent.PLAYER_HIT, health / FULL_HEALTH);
 	}
 
 

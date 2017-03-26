@@ -29,6 +29,8 @@ public class C_PlayerCharacter : MonoBehaviour {
         {
             Time.timeScale = 0;
             loseIndicator.text = "YOU LOSE!";
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             
         }
     }
